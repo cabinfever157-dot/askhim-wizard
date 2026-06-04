@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# Edge Functions are auto-discovered from /netlify/edge-functions/
+# No explicit [[edge_functions]] needed if the file exports `config` with `path`
